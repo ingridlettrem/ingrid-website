@@ -38,39 +38,70 @@
 .container {
   background-color: white;
   width: auto;
+  position: relative;
 }
 
-  .image {
-    display: block;
-    width: 100%;
-    height: auto;
-    }
+.row {
+  background-color: white;
+  width: 33.33%
+  float: left;
+  margin: 3px;
+}
 
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .1s ease;
-      background-color: #ffffff;
-    }
+.images {
+   width: 100%;
+   height: auto;
+   margin: 10px;
+   border-radius: 5px;
+ }
 
-    .container:hover .overlay {
-      opacity: 0.6;
-    }
+ .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   transition: .1s ease;
+   background-color: #ffffff;
+ }
 
+ .row:hover .overlay {
+  opacity: 0.8;
+}
 
-    .text {
-  color: black;
-  font-size: 20px;
+.text {
+  color: 222;
+  font-size: 17px;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  font-weight: 400;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.nav.navbar-nav.navbar-right {
+  float: right;
+  width: 125px;
+  padding: 12px;
+}
+
+.navbar-brand {
+  height: 50px;
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  margin-left: 80px;
+}
+
+.navbar.navbar-default{
+  background-color: #ffffff;
+  padding: 20px;
 }
