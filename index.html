@@ -1,88 +1,105 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-  <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
-    <title>IngridLettrem</title>
-  <!--  <link href="bootstrap-3.3.7-dist/bootstrap.css" type="text/css" rel="stylesheet">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>-->
-
+    <meta charset="utf-8">s
+      <title>IngridLettrem</title>
+        <!--  <link href="bootstrap-3.3.7-dist/bootstrap.css" type="text/css" rel="stylesheet">-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>-->
   </head>
   <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href= "http://www.ingridlettrem.com">
+                <img src="C:\Users\Ingrid\Documents\Git\ingrid-website\images\ingrid_logo.jpg"/>
+              </a>
+          </div>
 
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href= "http://www.ingridlettrem.com">
-        <img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\ingridlogo.jpg" />
-      </a>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="http://www.ingridlettrem.com">HOME</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Food</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Travel</a></li>
+              </ul>
+          </li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="http://www.ingridlettrem.com">HOME</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORIES<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Food</a></li>
-              <li role="separator" class="divider"></li>
-            <li><a href="#">Travel</a></li>
-          </ul>
-        </li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">CONTACT</a></li>
-      </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><div>
+            <a href="https://www.instagram.com/ingridlettrem/"target="_blank"><img src="C:\Users\Ingrid\Documents\Git\ingrid-website\images\instagram-icon.jpg" /></a>
+          </div>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-      <ul class="nav navbar-nav navbar-right">
-      <li><div>
-          <a href="https://www.instagram.com/ingridlettrem/"target="_blank"><img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\instagram-icon.png" /></a>
+  <div class="container">
+
+    <div class="col-sm-4"> <!-- Column content goes here-->
+      <div class="row">
+        <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\tromso.jpg"/>
+          <div class="overlay">
+            <div class="text">Tromso
+              <div class="paragraph"><p>After spending Christmas in the UK I was thrilled to be going back to Norway to spend time with my family during the Easter holiday ...</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div> <!-- Column content ends here-->
+
+      <div class="col-sm-4"> <!-- Column content goes here-->
+        <div class="row">
+          <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\bread-seller.jpg"/>
+            <div class="overlay">
+              <div class="text">Morocco
+                <div class="paragraph"><p>For my 20th birthday I was super spoilt and got treated a trip to Morocco by my boyfriend! It was our first proper holiday together since backpacking ...</p>
+                </div>
+              </div>
+            </div>
         </div>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+      </div> <!-- Column content ends here-->
 
-<div class="container">
-<div class="row">
-    <div class="col-sm-4">
-        <img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\ben.youssef.madrasa.jpg" alt="Avatar" class="image"/>
-  <div class="overlay">
-    <div class="text">Weird and Wonderful Morocco</div>
-  </div>
-    </div>
-
-    <div class="col-sm-4">
-        <img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\YSLmajorelle.jpg" class="image"/>
-        <div class="overlay">
-          <div class="text">YSL garden</div>
-        </div>
-    </div>
-
+<<<<<<< HEAD
     <div class="col-sm-4">
         <img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\ingrid.jamie.jpg" class="image"/>
         <div class="overlay">
           <div class="text">Holidaying Morocco</div>
+=======
+      <div class="col-sm-4"> <!-- Column content goes here-->
+        <div class="row">
+          <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\cornwall-scenery.jpg"/>
+            <div class="overlay">
+              <div class="text">Cornwall
+                <div class="paragraph"><p>The first time I went to Cornwall it felt like being in a different country completely ...</p>
+                </div>
+              </div>
+            </div>
+>>>>>>> master
         </div>
-      </div>
+      </div> <!-- Column content ends here-->
+    </div> <!-- end of container-->
 
-    <!-- now that we have used up all the 12 coloumbs in this row , lets go create a new "row class" , Alas in the same container -->
-</div>  <!-- end of row -->
-
+<<<<<<< HEAD
 <div class="row">
     <div class="col-md-12">
         <h1>I am a col , that spans the entire 12 coloumn that this row had to offer , by now you should know that if you want to create another coloumn , you have to go create another "row" class</h1>
@@ -91,13 +108,45 @@
 
         <div class="container">
           <img src="C:\Users\Ingrid\Desktop\Coding_course\First_site\images\segla.jpg" alt="Avatar" class="image">
+=======
+  <div class="container">
+    <div class="col-sm-4"> <!-- Column content goes here-->
+      <div class="row">
+        <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\friends-of-ours-london.jpg"/>
+>>>>>>> master
           <div class="overlay">
-            <div class="text">Hello World</div>
+            <div class="text">London spots // Friends of Ours
+              <div class="paragraph"><p>Make sure you visit this cafe if you're in Shoreditch ...</p>
+              </div>
+            </div>
           </div>
-        </div>
-    </div>
-</div>
-</div>  <!-- end of container -->
+      </div>
+    </div> <!-- Column content ends here-->
 
-</body>
+      <div class="col-sm-4"> <!-- Column content goes here-->
+        <div class="row">
+          <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\mamma-harborne-kitchen.jpg"/>
+            <div class="overlay">
+              <div class="text">Birmingham spots // Harborne Kitchen
+                <div class="paragraph"><p>I can't praise this restaurant enough - it's a place I keep coming back to time and time again ...</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> <!-- Column content ends here-->
+
+      <div class="col-sm-4"> <!-- Column content goes here-->
+        <div class="row">
+          <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\tapas-san-sebastian.jpg"/>
+            <div class="overlay">
+              <div class="text">San Sebastian
+                <div class="paragraph"><p>In September 2017 my boyfriend and I packed our suitcase and went on a Spanish foodie holiday ...</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> <!-- Column content ends here-->
+    </div> <!-- end of container-->
+
+  </body>
 </html>

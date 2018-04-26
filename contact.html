@@ -57,20 +57,44 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<div id="container-about">
-  <div class="row">
-    <img class="images" src ="C:\Users\Ingrid\Documents\Git\ingrid-website\images\coffee-san-sebastian.jpg"/>
-  </div>
-</body>
-</div> <!-- end of container-->
+<body>
 
-<div id="container-text-about">
-  <h3>About me</h3>
-    <p>My name is Ingrid and I'm a 23 year old Norwegian girl living in the UK (I fell in love with a Brit!).</p>
-    <p>I'm a BSc Business and Management student studying towards dual specialisation in Accounting and Marketing. I'm due to graduate in 2019.</p>
-    <p>This website started as a project whilst attending a coding course at university. It's a place for me to write down my thoughts and recommendations, especially for my two passions; travelling & food.</p>
-    <p>Feel free to get in touch with me or send me a message!</p>
+<div id="container-contact">
+  <div id="h3">
+    <h3>Get in touch or send me a message!</h3>
+  </div>
+<form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Email address..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
 </div>
+
+</body>
 
 </body>
 </html>
