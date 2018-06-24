@@ -20,7 +20,7 @@
 }
 
 .row {
-  background-color: white;
+  background-color: red;
   width: 33.33%
   float: left;
   margin: 3px;
@@ -43,7 +43,7 @@
    width: 100%;
    opacity: 0;
    transition: .07s ease;
-   background-color: #ffffff;
+   background-color: #red;
  }
 
  .row:hover .overlay {
@@ -198,4 +198,10 @@ input[type=submit] {
 
 body {
   padding-top: 90px;
+}
+
+/* blog articles size */
+.article {
+  padding-left: 250px;
+  padding-right: 250px;
 }
