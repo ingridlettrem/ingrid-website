@@ -205,3 +205,8 @@ body {
   padding-left: 250px;
   padding-right: 250px;
 }
+
+/* unvisited link */
+a:link {
+  color: black;
+}
